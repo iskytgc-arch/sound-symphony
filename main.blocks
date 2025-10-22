@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_gesture_event" id="s)Iabhv.J.[h,^08vGTz" x="-286" y="-486"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="music_playable_play" id="d27y}k_Uxq,,mas6.Xy]"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="TL`mP.yJ2dEJ-;q_dPlM"><value name="melody"><shadow type="melody_editor" id="Exhkem^ZiLtMx}*|QDdy"><field name="melody">"C5 C5 C5 B B B C5 C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="ThTx-kjE3IL|QHkAqT;;"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block><block type="device_forever" id="jzwFE.5Ci!z*B;7j9NMZ" x="-21" y="-349"><statement name="HANDLER"><block type="device_set_brightness" id="~W=Cn|kiA;_d4+zo|P)5"><value name="value"><shadow type="math_number_minmax" id=");?jb@~DNAMH05vC-VXQ"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">119</field></shadow><block type="device_get_sound_level" id="KAx}LIvTbexLwDQyXFQ^"></block></value><next><block type="controls_if" id="ulNp|:!FYWg`v3Xt}s`{"><value name="IF0"><shadow type="logic_boolean" id="T#9aZbda}gz#Xkj$`IgZ"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="He=!YA{M^*~9qRsxnw+6"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="Fe/PKyLFT77s!F^(Vtzu"><field name="NUM">0</field></shadow><block type="device_get_sound_level" id="(gC?*r5m]mn5tpUomr`u"></block></value><value name="B"><shadow type="math_number" id="=[(`}_WQ1!YC$JZ^[Y,9"><field name="NUM">150</field></shadow></value></block></value><statement name="DO0"><block type="music_playable_play" id="HjO}nquWJ.vOgiOn0rOR"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="gK]}O+W$,DYr!:%zIEKS" disabled-reasons="pxt_automatic_disabled"><value name="melody"><shadow type="melody_editor" id="g3:TDPg5hx?ue!`B*9f%" disabled-reasons="pxt_automatic_disabled"><field name="melody">"C5 A B G A F G E "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="m4T|=zKjfSps8BB9|4Ez" disabled-reasons="pxt_automatic_disabled"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow><block type="music_string_playable" id="]IH2!:aNPd@R(a^T]p2]"><value name="melody"><shadow type="melody_editor" id="e4nXv3r2uMtx+cwS$7xp"><field name="melody">"C5 A B G A F G E "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="|fyzffnSc,.D0i;gbM.r"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">415</field></shadow></value></block></value></block></statement></block></next></block></statement></block><block type="device_forever" id="`u]VwWb3olfLD[kciTW`" x="-289" y="-313"><statement name="HANDLER"><block type="device_show_leds" id="xl3rJk,kAfO+!;+t~LW5"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="W4sbbD)SjI|-Lh/q^d%e"><value name="pause"><shadow type="timePicker" id="upM3*jV6*P2|~jba%pxD"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="oKr=zHt-V,]0UIeQmq,S"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="6!i78%}aX%uG$}~iLOax"><value name="pause"><shadow type="timePicker" id="oaL|j]=Vb~Z+a7st$tqA"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="`x:0`Xaw)IH^nI!m;0P{"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id="NO3rf3uDWjTYx~*-e=FC"><value name="pause"><shadow type="timePicker" id="7#Jf9m~=_H,2SwNo$WRH"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="CtE#$EBZKhJt[*L4hU2x"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="music_playable_play" id="3(D@GaJ~lEP6ESu8K%19"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="Ncpt^N#nJoPqLDOqchQr"><value name="melody"><shadow type="melody_editor" id="tcUy#9uW}#C3|+nRd5?:"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="QY9^QbcPd3f[S+8`L{}Y"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="=+pM!jxolCcGjV.AhQw`" x="32" y="53"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="VlO6=0Ce7Np$@-oL(~oS"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        . . # . # 
+        . # . . . 
+        # . . . .
+        `</field></block></statement></block></xml>
